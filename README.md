@@ -8,13 +8,11 @@
 
 ## 📦 Зависимости
 
-- Python 3.13 (или 3.10+)
-- moviepy
+- Python 3.10+
+- [moviepy](https://pypi.org/project/moviepy/)
+- [imageio-ffmpeg](https://pypi.org/project/imageio-ffmpeg/)
 
-## Пример использования
+Установка зависимостей:
 
-```python
-from aud import Video
-
-a = Video()
-a.audio("airplane.MOV")
+```bash
+pip install -r requirements.txt
