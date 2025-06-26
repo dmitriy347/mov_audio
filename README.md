@@ -11,7 +11,10 @@
 - Python 3.13 (или 3.10+)
 - moviepy
 
-Установка зависимостей:
+## Пример использования
 
-```bash
-pip install -r requirements.txt
+```python
+from aud import Video
+
+a = Video()
+a.audio("airplane.MOV")
